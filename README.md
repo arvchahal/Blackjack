@@ -26,7 +26,7 @@ Represents a standard deck of 52 playing cards.
 ### Blackjack
 
 Contains the rules and logic for a game of Blackjack.
-Deployed on github pages
+Deployed on github pages here: https://arvchahal.github.io/Blackjack/
 No external libraries are required to run this game, as it uses standard Python libraries.
 
 ## License
