@@ -1,0 +1,106 @@
+.page-title {
+  font-size: 45px; /* Ensure the unit is specified */
+  /*margin-left: 450px;*/
+  color: #AA3939;
+  text-align: center; /* Center the title */
+}
+
+body {
+  background-color: #333333;
+  font-family: 'Arial', sans-serif; /* Add a standard font for better readability */
+  color: #FFFFFF; /* Light text color for better contrast */
+}
+
+.chip-counter{
+  text-align: center;
+}
+.betting {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.betting label {
+  font-size: 20px;
+  color: #EEE;
+}
+
+.betting input[type="number"] {
+  width: 100px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.betting button {
+  margin-left: 10px;
+  padding: 5px 15px;
+  background-color: #AA3939;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.betting button:hover {
+  background-color: #882222;
+}
+
+.dealer, .player {
+  text-align: center;
+  margin: 20px;
+
+}
+
+.dealer h3, .player h3 {
+  margin: 10px 0;
+  color: #EEE;
+  display: inline-block;
+
+
+}
+
+#startHand {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #AA3939;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#startHand:hover {
+  background-color: #882222;
+}
+
+.PlayerChoices {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.PlayerChoices button {
+  margin: 0 10px;
+  padding: 5px 15px;
+  background-color: #AA3939;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.PlayerChoices button:hover {
+  background-color: #882222;
+}
+
+img {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+  margin: 10px;
+  justify-content: center;
+}
+.PlayerSum{
+  text-align: center;
+}
+
+.dealerSum{
+  text-align: center;
+
+}
+

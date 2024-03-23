@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BlackJack</title>
+<link rel="stylesheet" href="pageStyling.css">
+</head>
+
+<body>
+  <h2 class='page-title'>Let's play Blackjack</h2>
+
+    <div class='chip-counter'>
+      <h5 id="chips">Chip Count: 1000</h5> <!--  starting chips are 1000 -->
+    </div>
+
+  <div class='betting'>
+    <label for="bet">Your Bet:</label>
+    <input type="number" id="bet" name="bet" min="1">
+    <button id="placeBet">Place Bet</button>
+  </div>
+
+  <button id="startHand">Press to play a game of single deck BlackJack</button>
+
+  <div class='dealer'>
+    <p>Dealer's Hand</p>
+    <img id='shown_card_image' src='PNG-cards-1.3\face_down_card.jpg' alt='Shown Card Image'>
+    <img id='hidden_card_image' src='PNG-cards-1.3\face_down_card.jpg' alt='Hidden Card Image'>
+    <img id='dealer_third_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='third Card Image' style='display:none';>
+
+    <img id='dealer_fourth_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='Fourth Card Image' style='display:none';>
+    <img id='dealer_fifth_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='fifth Card Image' style='display:none';>
+    <img id='dealer_sixth_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='Sixth Card Image' style='display:none';>
+    <img id='dealer_seventh_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='Seven Card Image' style='display:none';>
+    <img id='dealer_eight_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='Eight Card Image' style='display:none';>
+    <img id='dealer_nine_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='Nine Card Image' style='display:none';>
+    <img id='dealer_ten_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='Ten Card Image' style='display:none';>
+    <img id='dealer_eleven_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='Eleven Card Image' style='display:none';>
+  </div>
+
+  <div class="dealerSum">
+    <h6 id = 'dealerValue' >Dealer Hand Value:</h6>
+
+  </div>
+
+  <div class='player'>
+    <p>Player's Hand</p>
+    <img id='first_card_image' src='PNG-cards-1.3\face_down_card.jpg' alt='First Card Image'>
+    <img id='second_card_image' src='PNG-cards-1.3\face_down_card.jpg' alt='Second Card Image'>
+    <img id='third_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='Third Card Image' style='display:none';>
+    <img id='fourth_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='Fourth Card Image' style='display:none';>
+    <img id='fifth_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='fifth Card Image' style='display:none';>
+    <img id='sixth_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='Sixth Card Image' style='display:none';>
+    <img id='seventh_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='Seven Card Image' style='display:none';>
+    <img id='eight_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='Eight Card Image' style='display:none';>
+    <img id='nine_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='Nine Card Image' style='display:none';>
+    <img id='ten_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='Ten Card Image' style='display:none';>
+    <img id='eleven_card_img' src='PNG-cards-1.3\face_down_card.jpg' alt='Eleven Card Image' style='display:none';>
+
+  </div>
+
+  <div class='PlayerChoices'>
+    <button id='Hit_button'>Hit</button>
+    <button id='Stand_button'>Stand</button>
+    <button id="newRoundButton" style="display: none;">New Round</button>
+  </div>
+
+  <div class = 'PlayerSum'>
+    <h6 id = 'handValue'>Card Value: </h6>
+  </div>
+
+  <script type="module" src="start.js"></script>
+</body>
+</html>
